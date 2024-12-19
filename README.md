@@ -11,6 +11,8 @@ It is a project to understand how a two-step verification login works.
 - Interfaz moderna y responsiva utilizando **Material UI**.
 - Verificación en dos pasos gracias a Google Authenticator.
 - Envio de correos automáticos gracias a la librería 'smtplib'.
+- Guardado de datos con MongoDB.
+- API RESTful con FastAPI.
 
 ---
 
@@ -28,7 +30,7 @@ It is a project to understand how a two-step verification login works.
 ## 📦 **Funciones y tecnologías principales del backend**
 
 ### **FUNCIONES**: 
-*
+
     · Registro de Usuarios:
       - Creación de cuentas nuevas con contraseñas hasheadas.
       - Envío de correos de bienvenida.
@@ -49,7 +51,7 @@ It is a project to understand how a two-step verification login works.
       - Envío de correos ante intentos de acceso desde navegadores no reconocidos.
 
 ### **TECNOLOGÍAS**:
-*
+
     · FastAPI
         - Framework principal para construir las APIs RESTful.
         - Ofrece alto rendimiento y facilidad de uso gracias a su integración con Python tipo async y soporte de tipado estático.
